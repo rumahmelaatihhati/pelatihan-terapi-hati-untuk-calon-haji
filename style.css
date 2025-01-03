@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #2db88e;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+.container {
+    padding: 2rem;
+}
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.intro h2 {
+    font-size: 2rem;
+    color: #333;
+}
+.intro p {
+    font-size: 1rem;
+    color: #666;
+}
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.benefit {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    flex: 1 1 calc(30% - 1rem);
+    max-width: calc(30% - 1rem);
+}
+.benefit h3 {
+    color: #000000;
+    font-size: 1.5rem;
+}
+.benefit p {
+    color: #555;
+}
+.cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+.cta a {
+    background-color: #2db88e;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+.cta a:hover {
+    background-color: #c4b5b5;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.gallery img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
+.social-links {
+    margin: 1rem 0;
+}
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #2db88e;
+}
